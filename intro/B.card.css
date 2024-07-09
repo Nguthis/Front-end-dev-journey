@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+    display: block;
+    width: 500px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.card{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 5px solid #d8cefe;
+    background-color: #ddebf8;
+    color: #2b2839;
+}
+.img{
+    width: 150px;
+}
