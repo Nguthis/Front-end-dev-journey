@@ -1,0 +1,104 @@
+:root {
+  --primary-color:#7272ED;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+.intro {
+  position: absolute;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url(../images/ruiru-town.png);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.intro .title {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 200px 30%;
+  border-radius: 20px;
+  background: #7272ED;
+  padding: 3px 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.intro .title h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.activities {
+  background: var(--primary-color);
+  margin: auto 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 3%;
+}
+.activities header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.activities ul.features-list {
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  width: 100em;
+  height: 500px;
+  align-items: center;
+}
+.activities ul.features-list li {
+  background: #4848ef;
+  display: block;
+  border-radius: 20px;
+  text-align: start;
+  padding: 10px 30px;
+  margin: 20px 30px;
+}
+.activities ul.features-list li img {
+  align-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 30%;
+  margin-right: 40%;
+}
+
+.contact-div {
+  display: flex;
+}
+.contact-div .left-side {
+  background: var(--primary-color);
+  color: white;
+  display: flex;
+  height: 350px;
+  width: 500px;
+  border-radius: 20px;
+  border-bottom: 5px solid rgba(166, 93, 64, 0.208);
+  border-right: 5px solid rgba(166, 93, 64, 0.208);
+}
+.contact-div .left-side img {
+  height: 300px;
+  width: 250px;
+  border-bottom: 5px solid #4848ef;
+  border-right: 5px solid #4848ef;
+  border-radius: 20px;
+}
+.contact-div .left-side h3:hover, .contact-div .left-side p:hover, .contact-div .left-side h4:hover {
+  text-shadow: 2px 2px 0 black;
+}
+.contact-div .right-side {
+  display: flex;
+  flex-direction: column;
+}
+.contact-div .right-side img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */
