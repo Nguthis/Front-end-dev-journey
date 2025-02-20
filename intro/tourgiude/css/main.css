@@ -10,6 +10,7 @@ body {
   color: white;
   box-sizing: border-box;
   overflow-x: hidden;
+  background-color: linear-gradient(#b5c6e0, #ebf4f5);
 }
 
 .intro {
@@ -138,6 +139,7 @@ body {
   text-align: center;
 }
 .contact-div .right-side ul.logos li a {
+  padding: 0px 30px;
   display: flex;
   text-decoration: none;
   color: var(--primary-color);
